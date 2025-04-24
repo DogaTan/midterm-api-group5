@@ -5,6 +5,7 @@ require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 3000;
 
+
 app.get("/hello", (req, res) => {
   res.send("🟢 Hello from Midterm Project API!");
 });
